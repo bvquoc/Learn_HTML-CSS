@@ -1,0 +1,32 @@
+Các thẻ HTML cơ bản:
+- div
+- header
+- footer
+- aside (side ben trai, phai)
+- nav (menu)
+- main
+- iframe (nhúng 1 cái nguồn nào đó vào)
+
+Thẻ inline/block:
+- inline: 
+    + có độ rộng bằng nội dung nó chứa
+    + Nếu có nhiều thẻ inline gần nhau, nó sẽ nằmg cùng hàng
+    + Bị hạn chế về thuộc tính css
+- block: 
+    + có độ rộng bằng phần tử full chứa nó
+    + nếu nhiều thẻ block nằm với nhau, thì nó sẽ nằm trên nhiều hàng
+
+Sự khác nhau giữa class và id:
+- class: có thể trùng nhau, sử dụng cho nhiều phần tử cùng thuộc tính
+- id: 
+
+BEM (Block Element Modifier):
+- block__element--Modifier
+- block--Modifier
+- block__element
+
+Emmet:
+- div:
+    class: .class1.class2...
+    id: #id
+- ul: ul>li*<so_luong>
