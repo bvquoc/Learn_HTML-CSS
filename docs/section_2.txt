@@ -1,0 +1,14 @@
+- em / rem
+  fontsize 100% = 16px
+  1em = 1rem = 16px
+  em: là đơn vị phụ thuộc vào thuộc tính fontsize của chính nó hoặc phầnf từ chứa nó
+  rem: là đơn vị phụ thuộc vào thuộc tính fontsize của thẻ html (root)
+
+
+- border (bao ngoài ): width style color 
+- margin (khoảng cách giữa khối này với khối khác):
+- padding: khoảng cách bên trong ;))
+
+- box-sizing:
+    + content-box: width = width + padding + margin
+    + border-box: width = width - padding - margin
