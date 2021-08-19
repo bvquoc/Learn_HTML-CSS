@@ -12,3 +12,19 @@
 - box-sizing:
     + content-box: width = width + padding + margin
     + border-box: width = width - padding - margin
+    
+- text format:
+    + hiển thị trên 1 hàng: 
+      white-space: nowrap // hiển thị trên 1 hàng
+      overflow: hidden // quá dài sẽ đc ẩn đi
+      text-overflow: ellipsis // quá dài sẽ hiện dấu 3 chấm (...)
+    + hiển thị dấu "..." tới hàng thứ 3:
+      display: -webkit-box
+      -webkit-box-orient: vertical
+      -webkit-line-clamp: 3
+
+- img: là thẻ inline
+    + object-fit: fit hình ảnh nhưng k bị méo
+    + object-position: bottom / top
+
+- pseudo: hover, active, visited
