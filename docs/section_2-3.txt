@@ -28,3 +28,5 @@
     + object-position: bottom / top
 
 - pseudo: hover, active, visited
+
+- độ ưu tiên: tags < class < id < !important
