@@ -30,3 +30,33 @@
 - pseudo: hover, active, visited
 
 - độ ưu tiên: tags < class < id < !important
+
+- li:first-child
+- li:last-child
+- nth-child(x)
+- nth-last-child(x)
+- li:not(:first-child)
+- li:nth-child(odd/even)
+- li:nth-child(2n + 3)
+
+- li:first-of-type {} (khi sử dụng cùng kiểu)
+
+- Trỏ tới thẻ a có href (attribute) bắt đầu bằng https://
+  a[href ^= "https://"] { 
+    // css
+  }
+
+- Trỏ tới thẻ a có href (attribute) kết thúc bằng .vn
+  a[href $= ".vn"] { 
+    // css
+  }
+
+- Trỏ tới thẻ a có href (attribute) có chứa "www"
+  a[href *= "www"] { 
+    // css
+  }
+
+- Trỏ tới thẻ có attribute chính xác là value:
+  tag[attribute = "value"] {
+    // css
+  }
