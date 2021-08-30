@@ -1,0 +1,4 @@
+- transform: thay đổi size, xoay đối tượng nhưng không thay bố cục, vị trí đối với các đói tượng khác
+  + scale
+  + rotate
+  + translate
